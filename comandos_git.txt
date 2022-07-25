@@ -12,4 +12,5 @@ git commit -m "comentario de la version subida, siempre se debe diligenciar"
 # mostrar el historial de versiones
 git log
 
-
+# moverse entre ramas git
+git checkout <nombre de la rama o branch>
