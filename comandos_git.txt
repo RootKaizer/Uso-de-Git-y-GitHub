@@ -31,3 +31,19 @@ git checkout <nombre de la rama o branch>
 # 2- hacer git merge con el nombre de la rama que vamos a unir.
 # 3- ERROR en merge: cuando dos ramas tienen cambios diferentes en la misma línea del mismo archivo.
 git merge file_new
+
+
+# añadir repositorio creado en GitHub
+git remote add origin https://github.com/RootKaizer/Uso-de-Git-y-GitHub.git
+
+# listar los repositorios enlazados
+git remote -v
+Username for 'https://github.com': <usuario>
+Password for 'https://RootKaizer@github.com': <contraseña>
+
+
+# descargar archivos de gitHub a mi Git local
+git pull origin master
+
+# Subir archivos de mi Git local a GitHub
+git pull origin master
