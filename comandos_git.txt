@@ -12,4 +12,13 @@ git commit -m "comentario de la version subida, siempre se debe diligenciar"
 # mostrar el historial de versiones
 git log
 
+# crear un nuevo branch
+git checkout -b <nombre del nuevo branch>
+
+# moverse entre branch
+git chechout <nombre del branch hacia el que me muevo>
+
+# hacer merge entre branch,
+# 1- ubicarme en el branch que va ha quedar como principal (master)
+
 
