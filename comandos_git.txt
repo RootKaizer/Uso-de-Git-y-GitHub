@@ -12,7 +12,6 @@ git commit -m "comentario de la version subida, siempre se debe diligenciar"
 # mostrar el historial de versiones
 git log
 
-<<<<<<< HEAD
 # crear un nuevo branch
 git checkout -b <nombre del nuevo branch>
 
@@ -22,12 +21,12 @@ git chechout <nombre del branch hacia el que me muevo>
 # listar branch del proyecto
 git branch
 
+
+# moverse entre ramas git
+git checkout <nombre de la rama o branch>
+
+
 # hacer merge entre branch,
 # 1- ubicarme en el branch que va ha quedar como principal (master)
 # 2- hacer git merge con el nombre de la rama que vamos a unir.
 git merge file_new
-
-=======
-# moverse entre ramas git
-git checkout <nombre de la rama o branch>
->>>>>>> file_new
