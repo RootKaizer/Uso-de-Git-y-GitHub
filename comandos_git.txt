@@ -1,0 +1,15 @@
+# El presente documento contiene todos los comandos que usas con git
+
+# iniciar un nuevo proyecto
+git init
+
+# adicionar archivos a la memoria git, el "." indica subir todos los archivos del repositorio local
+git add .
+
+# grabar todos los cambios de la memoria git al repositorio master
+git commit -m "comentario de la version subida, siempre se debe diligenciar"
+
+# mostrar el historial de versiones
+git log
+
+
